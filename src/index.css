@@ -684,7 +684,7 @@ body {
     }
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:428px) {
 
     #navBar{
         height: 70px;
@@ -695,13 +695,14 @@ body {
     }
     .menuIcon>span {
         font-size: 30px;
+        margin-right: 5px;
     }
     #logo {
         float: right;
         width: 110px;
     }
     #logo>img {
-        height: 37px !important;
+        height: 35px !important;
         width: auto;
     }
     #search {
@@ -727,7 +728,8 @@ body {
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
         border-radius: 4px;
         width: 400px;
-        height: 23px;
+        height: 28px;
+        margin-top: 6px;
     }
     #searchText {
         border: none;
@@ -741,9 +743,11 @@ body {
     #searchIcon {
         display: flex;
         float: right;
-        font-size: 23px;
+        font-size: 29px;
     }
-
+    #hr {
+        display: none;
+    }
 
     #navMainBox {
         display: none;
@@ -759,6 +763,8 @@ body {
     .mySwiperArticle {
         height: 90px;
         margin-bottom: 0;
+        margin-top: 25px;
+
     }
 
 
@@ -816,6 +822,7 @@ body {
         background-color: #fafafa;
     }
 }
+
 
 @media only screen and (max-width:375px) {
     #searchMobile {
