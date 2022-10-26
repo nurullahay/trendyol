@@ -1,0 +1,839 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+#bigBox {
+    width: 100% !important;
+    overflow: hidden;
+}
+
+/* HEADER AREA -- START */
+
+#navBar {
+    display: block;
+    width: 1200px;
+    margin-bottom: 5px;
+    height: 95px;
+}
+
+#headerTop {
+    display: block;
+}
+
+.right {
+    display: inline-flex;
+    padding-top: 3px;
+    text-align: right;
+    margin-top: 1px;
+    float: right;
+}
+
+.right>li{
+    display: grid;
+    margin-top: 3px;
+}
+
+.right>li>a {
+    display: inline-flex;
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 3px;
+    text-align: right;
+    padding-left: 17px;
+}
+
+.right>li>a:hover {
+    color: rgb(117, 109, 109);
+}
+
+#logo {
+    display: inline-flex;
+    float: left;
+}
+
+#logo>img {
+    height: 59px;
+    width: 146px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+#searchIcon {
+    color: rgb(255, 111, 0);
+    font-size: 37px;
+    
+}
+#kapsayici {
+    display: inline-flex;
+}
+#search {
+    width: 598px;
+    height: 43px;
+    display: inline-flex;
+    border-radius: 0.4rem;
+    margin-top: 2px;
+    margin-left: 10px;
+    background-color: #f3f3f3;
+    margin-left: 80px;
+}
+
+#search>input {
+    width: 100%;
+    display: inline-flex;
+    border: none;
+    margin-left: 10px;
+    background-color: #f3f3f3;
+}
+
+#userMenu {
+    float: right;
+    display: inline-flex;
+    text-align: right;
+    padding-left: 96px;
+    width: 500px;
+}
+
+#userMenu>ul>li {
+    display: inline-flex;
+}
+
+#userMenu>ul>li>a {
+    text-decoration: none;
+    color: #333333;
+    display: inline-flex;
+    padding-left: 15px;
+}
+
+#userMenu>ul>li>a:hover {
+    color: #f27a1a;
+}
+
+#userMenu>ul {
+    text-align: right;
+    padding-left: 0;
+}
+
+.userI {
+    margin-bottom: 10px;
+}
+
+.userI>span {
+    color: black;
+    font-size: 24px;
+}
+
+.userP {
+    font-size: 13px;
+    display: inline-flex;
+    margin-left: 6px;
+    margin: 0 auto;
+    margin-right: 4px;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+/* HEADER AREA -- FNİSH */
+
+/* NAVBAR AREA-- START */
+
+#navMenu {
+    width: 100% !important;
+    margin-bottom: 7px;
+    height: 22px;
+}
+
+#navMenu>ul {
+    display: inline-flex;
+}
+
+#navMenu>ul>li {
+    display: grid;
+    margin-left: 6px;
+}
+
+#navMenu>ul>li>a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+    display: block;
+    color: #333;
+}
+
+#hr {
+    opacity: 0.3;
+}
+
+/* NAVBAR AREA -- FNİSH */
+
+/* ARTICLE AREA -- START */
+
+
+.mySwiper {
+    max-width: 1200px;
+    margin-top: 40px;
+    height: 96px;
+    margin-bottom: 15px;
+  }
+  
+  .swiper-pagination-bullet {
+    display: none;
+  }
+  
+  .swiper-button-next{
+    opacity: 0;
+    color: #999;
+  }
+  
+  .swiper-button-next:hover{
+    opacity: 0.5;
+    color: #999;
+    padding-bottom: 20px;
+  }
+  
+  .swiper-button-prev{
+    opacity: 0;
+    color: #999;
+  }
+  
+  .swiper-button-prev:hover{
+    opacity: 0.5;
+    color: #999;
+    padding-bottom: 20px;
+  }
+  
+  #article>a {
+    display: grid;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1px;
+  }
+  
+  #article>a>img:hover {
+    box-shadow: rgb(255, 111, 0) 0px -2px 6px 0px inset;
+  }
+  
+  #article>a>img {
+    height: 68px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 100%;
+    margin: auto;
+  }
+  
+  .artP {
+    font-size: 13px;
+    display: grid;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .swiper-box {
+    padding: 0 20px 0 20px;
+  }
+  
+
+/* ARTICLE AREA -- FNİSH */
+
+#firsat {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#firsat>a>img{
+    width: 386px;
+    height: 57.11px;
+}
+ 
+
+/* SECTİON AREA -- START */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 0.5rem;
+}
+
+.container>a {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 0.5rem;
+    background-color: black;
+    height: 224px;
+    width: 386px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.container>a>div>img {
+    width: 100%;
+    height: 94%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card-p>p {
+    color: white;
+    margin: 4px 3px auto 3px; 
+    display: grid;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.card-p {
+    height: 50px;
+}
+
+.container>a:hover {
+    border: 1px solid rgb(255, 111, 0);
+    background-color: rgb(255, 111, 0);
+}
+/* SECTİON AREA -- FNİSH */
+
+/* KART AREA -- START */
+
+
+#cardMainBox {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fffaf6;
+    border: 1px solid #f2e5da;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    position: relative;
+    margin: auto;
+    margin: 40px auto 40px auto;
+    height: 360px
+}
+
+.cardHeader {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.cardHeader>h2 {
+    font-size: 18px;
+    display: inline-flex;
+    text-align: left;
+    float: left;
+    padding-left: 15px;
+}
+
+.cardHeader>a {
+    text-align: right;
+    padding-right: 20px;
+    color: #333;
+    float: left;
+}
+
+.cardHeader>a>p{
+    display: inline-flex;
+    float: right;
+    justify-content: right;
+    text-decoration: underline;
+    color: #333;
+}
+
+.mySwiper2 {
+    height: 280px !important;
+    position: relative;
+    margin-top: 0;
+}
+
+.card {
+    height: 270px !important;
+    width: 198px;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+}
+
+#cardImg {
+    margin: 0 auto;
+    height: 145px;
+    display: block;
+    height: 135px;
+    margin-bottom: 0 !important;
+ }
+ 
+
+#cardImg>img {
+    height: 95%;
+    max-height: 135px;
+    border: none;
+    width: auto;
+    margin-left: 48px;
+    margin-top: 0;
+    transition-duration: 1s;
+}
+
+#cardImg>img:hover {
+    height: 100%;
+}
+
+.img>img {
+    height: 40px;
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.card>a {
+    text-decoration: none;
+    color: #333;
+    width: 198px;
+}
+
+#cardBrandName {
+    color: black;
+}
+
+#article>a {
+    display: grid;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+#cardExp {
+    height: 33px;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #666;
+    display: block;
+}
+
+#article>a>img:hover {
+    border: 1px solid rgb(255, 111, 0);
+  }
+
+#cardPrice {
+    color: #f27a1a;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    display: block;
+    height: 20px;
+}
+
+#cardInfo {
+    margin-top: 0 !important;
+    height: 22px !important;
+    display: block;
+}
+
+#promText {
+    background-color: #f27a1a;
+    width: fit-content;
+    color: white;
+    padding: 0 3px 0 3px;
+    margin-left: 14px;
+    margin-top: 0;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+#firsatLogo>img {
+    height: 47px;
+    width: 47px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#headLogo {
+    height: 30px;
+    margin-top: 0;
+}
+
+#cardInfo {
+    height: 101px;
+    position: relative;
+}
+
+#favoriBtn {
+    display: inline-flex;
+    float: right;
+    border-radius: 50%;
+    border: none;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding-top: 5px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 11%);
+    border: solid 1px #f0f0f0;
+    background: #ffffff;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-right: 8px;
+    color: #666;
+}
+
+#favoriBtn:hover {
+    color: #f27a1a;
+}
+
+#kargo {
+    width: 56px;
+    height: 25px;
+    font-size: 10px;
+    display: inline-flex;
+    background-color: #535353;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 8px;
+    position: absolute;
+}
+
+/* KART AREA -- FNİSH */
+
+/* CONTENT AREA -- START */
+
+#hr2 {
+    opacity: 0.3;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.content {
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.contentParag {
+    display: block;
+    color: #333;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+#hr3 {
+    opacity: 0.3;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* CONTENT AREA -- FNİSH */
+
+/* POPULAR AREA -- START */
+
+.popularHeaders {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;  
+}
+
+/* POPULAR AREA -- FNİSH */
+
+
+/* FOOTER AREA -- START */
+
+.footer {
+    width: 100%;
+    height: 524px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footerBox {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1rem;
+}
+
+.aFooter {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: -webkit-match-parent;
+}
+
+#footerPay>img {
+    height: 26px;
+    width: auto;
+    padding-right: 2px;
+}
+/* FOOTER AREA -- FNİSH */
+
+.menuIcon {
+    display: none;
+}
+
+#searchMobile {
+    display: none;
+}
+
+#logo {
+    display: inline-flex;
+    float: left;
+}
+
+#logo>img {
+    height: 59px;
+    width: 146px;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    /* Header Start */
+    #logo>img {
+        height: 50px;
+        width: auto;
+    }
+    #search {
+        width: 340px;
+        height: 40px;
+        margin-left: 66px;
+    }
+    #searchText {
+        font-size: 12px;
+    }
+    .userP {
+        display: none;
+    }
+
+
+    #navList{
+        padding-left: 0 !important;
+    }
+    #navList>li {
+        padding-right: 5px;
+    }
+    #navList>li>a {
+        font-size: 12px !important;
+    }
+    .mySwiperArticle{
+        margin-top: 5px;
+        padding-top: 5px;
+        height: 100px;
+    }
+
+
+    #firsatMain {
+        height: 90px;
+        width: 94%;
+    }
+    #firsat{
+        margin-top: 8px !important;
+    }
+    #firsat>a>img {
+        width: 230px !important;
+        height: 55px;
+    }
+
+
+    .containerSection {
+        grid-template-columns: 50% 50% !important;
+        width: 94%;
+    }
+    .container>a {
+        width: 360px !important;
+        height: 208px !important;
+    }
+    .cardHeader {
+        height: 35px;
+        padding-top: 0;
+    }
+    #cardMainBox {
+        height: 340px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+
+    #hr2 {
+        margin-top: 0 !important;
+        margin-bottom: 0;
+    }
+    .content {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    #navBar{
+        height: 70px;
+    }
+    .menuIcon {
+        display: inline-flex;
+        float: left;
+    }
+    .menuIcon>span {
+        font-size: 30px;
+    }
+    #logo {
+        float: right;
+        width: 110px;
+    }
+    #logo>img {
+        height: 37px !important;
+        width: auto;
+    }
+    #search {
+        display: none;
+    }
+    #userMenu {
+        height: 25px;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        order: 1;
+    }
+    #userMenu>ul {
+        margin-top: 2px;
+        right: 0;
+        position: absolute;
+    }
+    .userI {
+        font-size: 25px;
+    }
+    #searchMobile {
+        display: block;
+        background-color: #fff;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        border-radius: 4px;
+        width: 400px;
+        height: 23px;
+    }
+    #searchText {
+        border: none;
+        border-color: #fff;
+        display: flex;
+        float: left;
+        margin-top: 5px;
+        margin-left: 8px;
+        width: 360px;
+    }
+    #searchIcon {
+        display: flex;
+        float: right;
+        font-size: 23px;
+    }
+
+
+    #navMainBox {
+        display: none;
+    }
+
+
+    #article>a>img{
+        height: 50px;
+    }
+    .artP {
+        font-size: 10px;
+    }
+    .mySwiperArticle {
+        height: 90px;
+        margin-bottom: 0;
+    }
+
+
+    #firsatMain{
+        display: none;
+    }
+
+    .container {
+        grid-template-columns: 100% !important;
+    }
+    .container>a {
+        width: 100% !important;
+        height: 220px !important;
+        margin-bottom: 0;
+    }
+    .card-p>p {
+        font-size: 12px !important;
+    }
+     
+
+    #cardMainBox {
+        height: 320px;
+        margin-top: 10px;
+    }
+    .cardHeader {
+        height: 20px;
+    }
+    .cardHeader>h2 {
+        font-size: 16px;
+    }
+    .cardHeader>a {
+        font-size: 14px;
+    }
+    
+
+    .content {
+        width: 92%;
+        background-color: #fafafa;
+    }
+    .content>h3 {
+        font-size: 12px;
+    }
+    .contentParag {
+        font-size: 9px !important;
+        line-height: 15px !important;
+    }
+    .content>h4 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 11px !important;
+    }
+
+
+    #bigBox {
+        background-color: #fafafa;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    #searchMobile {
+        width: 350px !important;
+    }
+    #searchText {
+        width: 300px !important;
+    } 
+
+    .artP {
+        font-size: 10px;
+    }
+
+
+    .cardHeader>h2 {
+        font-size: 14px !important;
+    }
+    .cardHeader>a {
+        font-size: 12px !important;
+    }
+}
