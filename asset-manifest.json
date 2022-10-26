@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trendyol-web-page/static/css/main.de637ce8.css",
+    "main.js": "/trendyol-web-page/static/js/main.86c2e892.js",
+    "index.html": "/trendyol-web-page/index.html",
+    "main.de637ce8.css.map": "/trendyol-web-page/static/css/main.de637ce8.css.map",
+    "main.86c2e892.js.map": "/trendyol-web-page/static/js/main.86c2e892.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de637ce8.css",
+    "static/js/main.86c2e892.js"
+  ]
+}
